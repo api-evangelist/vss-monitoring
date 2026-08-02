@@ -1,23 +1,65 @@
 aid: vss-monitoring
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vss-monitoring.png
 name: VSS Monitoring
-description: VSS Monitoring is a company surfaced as a portfolio company of battery-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  VSS Monitoring was a network packet broker (NPB) vendor founded in 2003,
+  known for its vBroker appliance range and the vMesh architecture that meshed
+  up to 256 packet brokers into a fault-tolerant network-visibility fabric for
+  monitoring and security tools. It was acquired by Danaher Corporation in 2012
+  as part of Tektronix Communications, and passed to NETSCOUT Systems when
+  NETSCOUT acquired Danaher's Communications business (Tektronix Communications,
+  Arbor Networks, parts of Fluke Networks) for roughly USD 2.6 billion, closing
+  in July 2015. VSS Monitoring no longer operates as an independent company or
+  brand; its packet-broker technology is now delivered as a NETSCOUT business
+  unit, and it exposes no independent public developer program, API, SDK, or
+  developer portal. This profile was surfaced as a portfolio-company lead and
+  is retained for network completeness rather than as an active API provider.
 url: https://raw.githubusercontent.com/api-evangelist/vss-monitoring/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - battery-ventures
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: acquired-no-api-surface
+x-status: acquired
+x-acquired-by: netscout
+x-notes: >-
+  Enrichment 2026-07-21: SEARCH + domain probe completed. No independent API
+  surface found. Former domain vssmonitoring.com now resolves to Cloudflare and
+  returns HTTP 403 (parked/reassigned, not the original company site). Company
+  fully absorbed into NETSCOUT via the 2012 Danaher acquisition and 2015 NETSCOUT
+  purchase of Danaher Communications. No OpenAPI, packages, well-known, MCP, or
+  llms.txt exist to derive from.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Network Monitoring
+- Network Packet Broker
+- Network Visibility
+- Network Security
+- Networking
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
