@@ -41,7 +41,7 @@ x-notes: >-
   fully absorbed into NETSCOUT via the 2012 Danaher acquisition and 2015 NETSCOUT
   purchase of Danaher Communications. No OpenAPI, packages, well-known, MCP, or
   llms.txt exist to derive from.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-21'
 tags:
